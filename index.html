@@ -62,7 +62,7 @@
             <li><span id="minutes"></span>Minutes</li>
             <li><span id="seconds"></span>Seconds</li>
         </ul>
-        <h3 id="head2">Прошло с начала отсчета</h3>
+        <h3 id="head2">Прошло с нашего растования</h3>
         <ul id="minor">
             <li><span id="days2"></span>days</li>
             <li><span id="hours2"></span>Hours</li>
@@ -79,7 +79,7 @@
             hour = minute * 60,
             day = hour * 24;
 
-        const startTime = new Date("2019-02-03T15:46:05.816Z").getTime();
+        const startTime = new Date("2018-09-30T14:58:00+03:00").getTime();
         const countDown = new Date('2019-04-14T17:20:00+03:00').getTime();
         const x = setInterval(function() {
             let now = new Date().getTime(),
